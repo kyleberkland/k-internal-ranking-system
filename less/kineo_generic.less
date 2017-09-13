@@ -1,0 +1,91 @@
+body{
+	padding: 20px;
+}  
+.header-wrap{
+  padding: 20px;
+  position: relative;
+  display: block;
+  height: 100px;
+  background: #f2f2f2;
+  margin-bottom: 20px;
+    .nav-title,
+    .nav-sub-title{
+      	float: left;
+    	clear: left;
+    }
+    .nav{
+      	float: right;
+      	.nav-btns{
+	      	float: right;
+		    position: absolute;
+		    right: 0;
+		    top: 30px;
+	    	.btn-logout-wrap{
+	    		float: right;
+	    	} 
+      	} 
+    }
+}
+
+.kineo-value-box-wrapper{
+	float: right;
+	.kineo-value-box{
+		width: 500px;
+	}
+}
+.wrap-avatar-table{
+	width: 33%;
+}
+
+.mask-avatar{
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+   img{
+   	max-width: 100%;
+   }
+}
+
+//slick slider
+.slide-baby-slide{
+	.slick-next{
+		&:before{
+			content: ' ';
+			background-image: url('../img/next-btn-over.png');
+			background-size: 12px 21px;
+			display: block;
+			width: 12px;
+			height: 21px;
+		}
+	}
+	.slick-prev{
+		&:before{
+			content: ' ';
+			background-image: url('../img/back-btn-over.png');
+			background-size: 12px 21px;
+			display: block;
+			width: 12px;
+			height: 21px;
+		}
+	}
+	.slick-dots{
+		li {
+			button:before{
+				content: ' ';
+				background-image: url('../img/dot-black.png');
+				background-size: 18px 18px;
+				display: block; 
+				width: 18px;
+				height: 18px;
+			}
+		}
+	}
+	.slick-list{
+		height: 300px;
+	}	
+}
+
+
+ 
